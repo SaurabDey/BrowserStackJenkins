@@ -20,6 +20,7 @@ public class BrowserStackCode {
 	public void start() throws MalformedURLException {
 
 		System.out.println(">>>>>>Started execution in BrowserStack>>>>>>");
+		System.out.println(">> We are running in AWS> Jenkins> Browserstack uising GIT code>>>>");
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("browser", "Safari");
 		caps.setCapability("browser_version", "5.1");
